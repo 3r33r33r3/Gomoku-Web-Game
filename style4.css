@@ -1,0 +1,48 @@
+.bgimage {
+    background: url(Mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+  color: white;  
+}
+
+.bgtext {
+    font-family: Arial;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px white ;
+  }
+
+.block{
+  display: block;
+  width: 5%;
+  border: none;
+  background-color: transparent;
+  padding: 14px 28px;
+  color: #ababab;
+  cursor: pointer;
+}
+
+  table{
+    border-collapse: collapse;
+    color: white;
+    padding: 0;
+  }
+  
+  td{
+    background: #ababab;
+    border: 1.5px solid black;
+    padding: 0;
+    text-align: center;
+  }
+
+p {
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: Arial;
+  color: #ababab;
+  text-align: center;
+  -webkit-text-stroke: 1px white ;
+}

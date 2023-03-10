@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.selector {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  -webkit-text-stroke: 0.7px #ffffff ;
+  user-select: none;
+}
+
+.bgimage {
+  display: block;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: Arial;
+  color: #D7BA89;
+  text-align: center;
+  -webkit-text-stroke: 1px white ;
+}
+
+.block{
+  display: block;
+  width: 5%;
+  border: none;
+  background-color: transparent;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #D7BA89;
+  text-align: center;
+  -webkit-text-stroke: 0.7px white ;
+  cursor: pointer;
+  margin-right: 42px;
+}
+
+table {
+  border-collapse: collapse;
+  color: white;
+  padding: 0;
+}
+
+td{
+  background: #D7BA89;
+  border: 1.5px solid black;
+  padding: 0;
+  text-align: center;
+}
+
+.buttonclass{
+  background: transparent;
+  margin: 0;
+  display: block;
+  height: 2vw;
+  width: 2vw;
+  border: 0;
+}
+
+.black {
+  background-image: url('black.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.white {
+  background-image: url('white.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#resetbutton{
+  align-items: center;
+}
+
+.gomokutable{
+  align-items: center;
+}

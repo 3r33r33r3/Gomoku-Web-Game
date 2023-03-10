@@ -1,0 +1,54 @@
+.bgimage {
+    background: url(sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+  color: white;  
+}
+
+.bgtext {
+    font-family: Arial;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px white ;
+  }
+
+.block{
+  color: white;
+  display: block;
+  width: 5%;
+  border: none;
+  background-color: transparent;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #AFA6B9;
+  text-align: center;
+  -webkit-text-stroke: 0.5px white ;
+  cursor: pointer;
+  text-align: center;
+}
+
+  table{
+    border-collapse: collapse;
+    color: white;
+    padding: 0;
+  }
+  
+  td{
+    background: #AFA6B9;
+    border: 1.5px solid black;
+    padding: 0;
+    text-align: center;
+  }
+
+p {
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: Arial;
+  color: #AFA6B9;
+  text-align: center;
+  -webkit-text-stroke: 1px white ;
+}

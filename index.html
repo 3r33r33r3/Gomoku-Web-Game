@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style1.css" rel="stylesheet" type="text/css" id="themeCss" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <fieldset style="width: 150px">
+    <legend>Select a Theme</legend>
+
+    <div>
+      <input type="radio" id="theme1" name="drone" value="style1.css" checked>
+      <label for="theme1">Koi Fish</label>
+    </div>
+
+    <div>
+      <input type="radio" id="theme2" name="drone" value="style2.css">
+      <label for="theme2">Cherry</label>
+    </div>
+
+    <div>
+      <input type="radio" id="theme3" name="drone" value="style3.css">
+      <label for="theme3">Mt. Fuji</label>
+    </div>
+
+    <div>
+      <input type="radio" id="theme4" name="drone" value="style4.css">
+      <label for="theme3">Tianzi Mountains</label>
+    </div>
+  </fieldset>
+
+  <div class="bgimage">
+    <div class="bgtext">
+      <p id="winner">
+        Gomoku Game
+      </p>
+    </div>
+
+    <div class="gomokutable">
+      <center>
+        <div id="resetbutton">
+          <button type="button" class="block">
+            <bold>Reset</bold>
+          </button>
+        </div>
+        <table>
+          <tbody id="tableRows">
+
+          </tbody>
+        </table>
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>

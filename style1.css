@@ -1,0 +1,23 @@
+.bgimage {
+    background: url(Fish.jpg);
+}
+
+.bgtext {
+    font-family: Arial;
+    color: #D7BA89;
+    text-align: center;
+    -webkit-text-stroke: 1px white ;
+  }
+
+  table{
+    border-collapse: collapse;
+    color: white;
+    padding: 0;
+  }
+  
+  td{
+    background: #D7BA89;
+    border: 1.5px solid black;
+    padding: 0;
+    text-align: center;
+  }
